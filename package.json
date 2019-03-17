@@ -1,0 +1,25 @@
+{
+  "name": "puree",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Kevin Barabash",
+  "license": "MIT",
+  "bin": {
+    "puree": "./src/index.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.3.4",
+    "@babel/parser": "^7.3.4",
+    "@babel/traverse": "^7.3.4",
+    "@babel/types": "^7.3.4",
+    "babel-core": "^6.26.3",
+    "commander": "^2.19.0",
+    "mkdirp": "^0.5.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-replace": "^2.1.0",
+    "tmp": "^0.0.33"
+  }
+}
