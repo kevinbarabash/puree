@@ -23,8 +23,8 @@ can import its dependencies without additional work.
 These are from [purescript-calculator-example](https://github.com/kevinbarabash/purescript-calculator-example):
 
 - pulp: 54 K
-- purs (with -m): 54 K
-- rollup (with uncurry:false): 16 K
+- purs bundle (with -m): 54 K
+- rollup (using rollup-plugin-purs with uncurry:false): 16 K
 - puree: 14 K
 
 These numbers exclude node_modules dependencies.  All bundles are non-minified.
